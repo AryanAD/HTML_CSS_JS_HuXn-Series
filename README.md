@@ -16,5 +16,5 @@
 <img src="01.bg_video\assets\channel.png">
 
 ```YouTube Playlist:```
-[HuXn's playlist]("01.bg_video\assets\playlist.png")
+![HuXn's playlist](01.bg_video\assets\playlist.png)
 
