@@ -15,6 +15,6 @@
 ```YouTube Channel:``` 
 <img src="01.bg_video\assets\channel.png">
 
-```YouTube Playlist:```
+```YouTube Playlist:``` <br>
 <img src="01.bg_video\assets\playlist.png">
 
