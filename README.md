@@ -16,5 +16,5 @@
 ![HuXn's channel]("img/channel.png")
 
 ```YouTube Playlist:```
-![HuXn's playlist](img/playlist.png)
+![HuXn's playlist]("img/playlist.png")
 
