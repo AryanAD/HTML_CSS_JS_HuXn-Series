@@ -1,7 +1,5 @@
 # HTML_CSS_JS_HuXn-Series
 
-<hr>
-
 ## What is this?
 
 - This repo is me following 'HuXn WebDev' from YouTube on his journey to complete 100+ projects on HTML, CSS, and JavaScript.
