@@ -13,8 +13,8 @@
 <hr>
 
 ```YouTube Channel:``` 
-![HuXn's channel](image-1.png)
+![HuXn's channel](img/channel.png)
 
 ```YouTube Playlist:```
-![HuXn's playlist](image.png)
+![HuXn's playlist](img/playlist.png)
 
