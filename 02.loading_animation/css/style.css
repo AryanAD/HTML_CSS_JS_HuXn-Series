@@ -43,7 +43,7 @@ body {
 }
 
 .loader .loading.four {
-    animation-delay: 0.9s;
+    animation-delay: 0.8s;
 }
 
 @keyframes load {
