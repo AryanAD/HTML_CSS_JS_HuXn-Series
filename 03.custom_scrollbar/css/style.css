@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: radial-gradient(red, blue, red);
+}
+
+.card {
+    width: 700px;
+    background: navajowhite;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Cascadia', monospace;
+    line-height: 28px;
+    border-radius: 15px;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: blueviolet;
+    border-radius: 100px;
+    background: linear-gradient(orangered, orange, orangered);
+    border: 1px solid navajowhite;
+}
