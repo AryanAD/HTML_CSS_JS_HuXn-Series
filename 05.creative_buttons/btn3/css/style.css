@@ -3,3 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace, serif;
+}
+
+a {
+    width: 300px;
+    height: 60px;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent url;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    transition: all 0.2s;
+    color: whitesmoke;
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    background: turquoise;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    transform: all 0.2s;
+    transform-origin: top;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 100%;
+    height: 100%;
+    background: greenyellow;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    transform: all 0.2s;
+    transform-origin: bottom;
+}
+
+a:hover:before {
+    top: -6px;
+    left: 0;
+    transform: perspective(1000px) rotateX(75deg);
+}
+
+a:hover:after {
+    top: 6px;
+    left: 0;
+    transform: perspective(1000px) rotateX(-75deg);
+}
+
+a:hover {
+    font-weight: 300;
+    color: black;
+}
