@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    align-items: center;
+    background: #555;
+    display: flex;
+    font-family: monospace, serif;
+    font-weight: bold;
+    height: 100vh;
+    justify-content: center;
+}
+
+a {
+    border: 2px solid bisque;
+    color: bisque;
+    font-size: 1.8rem;
+    overflow: hidden;
+    padding: 2rem 5rem;
+    position: relative;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+a:before {
+    align-items: center;
+    background: bisque;
+    color: #222;
+    content: "DOWNLOAD";
+    display: flex;
+    font-weight: bolder;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    transition: all 1s;
+    width: 100%;
+}
+
+a:hover:before {
+    transform: translateY(0);
+}
