@@ -3,3 +3,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    align-items: center;
+    display: flex;
+    font-family: monospace;
+    height: 100vh;
+    justify-content: center;
+}
+
+a {
+    background-color: orangered;
+    color: azure;
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    position: relative;
+    text-decoration: none;
+}
+
+a::before {
+    align-items: center;
+    background: coral;
+    content: "BUTTON";
+    display: flex;
+    font-weight: bolder;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform-origin: top;
+    transform: rotateX(270deg);
+    transition: all 0.5s;
+    width: 100%;
+}
+
+a::after {
+    content: "BUTTON";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: chocolate;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(270deg);
+    transform-origin: top;
+    transition: all 0.5s;
+    transition-delay: 0.25s;
+}
+
+a:hover:before,
+a:hover:after {
+    transform: rotateX(0);
+}
