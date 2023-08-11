@@ -1,5 +1,32 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    color: white;
+}
+
+.scroll-container {
+    background: tomato;
+    width: 25rem;
+    padding: 30px;
+}
+
+.scroll-div {
+    width: 400px;
+    height: 500px;
+    background: tomato;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.scroll-object {
+    padding: 20px;
 }
