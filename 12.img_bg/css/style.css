@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    font-family: 'Komika';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: mediumslateblue;
+}
+
+.heading {
+    font-size: 14rem;
+    font-weight: bold;
+    background: url(https://img.freepik.com/premium-photo/ilam-tea-garden-farm-illam-kanyam-nepal-with-organic-nepali-tea_723123-108.jpg?w=1060);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
