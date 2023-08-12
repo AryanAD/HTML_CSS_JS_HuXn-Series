@@ -1,5 +1,44 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background: moccasin;
+    color: black;
+}
+
+.content {
+    padding: 4rem;
+}
+
+section {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+section h1 {
+    margin: 10px 0;
+}
+
+.scroll-indicator {
+    height: 5px;
+    width: calc(100% - 6em);
+    position: fixed;
+    top: 10px;
+    left: 3em;
+    border-radius: 4px;
+}
+
+.scroll-indicator .progress {
+    height: 100%;
+    width: 0;
+    border-radius: 4px;
+    /* https://www.grabient.com/ */
+    background: linear-gradient(30deg, #00DBDE, #FC00FF);
+    transition: width 0.1s;
 }
