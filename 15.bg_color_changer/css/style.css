@@ -1,0 +1,37 @@
+body {
+    background: black;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s cubic-bezier(0, 0.61, 0.355, 1);
+}
+
+h2 {
+    color: white;
+    font-weight: 200;
+}
+
+button {
+    padding: 15px;
+    font-family: 'komika';
+    border-radius: 8px;
+    font-size: 6rem;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+button:hover {
+    border-radius: 12px;
+    font-size: 5.5 rem;
+    background: whitesmoke;
+    color: #333;
+    cursor: pointer;
+}
+
+button:active {
+    padding: 10px;
+}
