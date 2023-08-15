@@ -1,0 +1,58 @@
+:root {
+    --PRIMARY-COLOR: white;
+    --PRIMARY-LABEL: black;
+    --SECONDARY-LABEL: white;
+    --WHITE-BALL: white;
+    --BLACK-BALL: black;
+}
+
+body {
+    background: var(--PRIMARY-COLOR);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#switch {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+label {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: var(--PRIMARY-LABEL);
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+label::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 70px;
+    background-color: var(--WHITE-BALL);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: 0.5s;
+}
+
+#switch:checked+label:after {
+    background-color: var(--BLACK-BALL);
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+#switch:checked+label {
+    background-color: var(--SECONDARY-LABEL);
+}
+
+label:active:after {
+    width: 60px;
+}
