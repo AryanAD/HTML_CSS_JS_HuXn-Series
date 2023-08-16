@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#FBAB7E, #F7CE68);
+    color: black;
+    font-family: 'tr larabiefont';
+}
+
+.main {
+    background: rgba(255, 166, 0, 0.148);
+    /* padding: 5px 0; */
+    padding: 2rem;
+    border: solid 3px rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Roboto;
+    border-radius: 4px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    outline: none;
+    margin-bottom: 16px;
+}
+
+#selectOp {
+    outline: transparent;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding: 4px;
+}
+
+#btn {
+    border: none;
+    border-radius: 6px;
+    font-family: machine;
+    font-size: 2.2rem;
+    background: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+h2 {
+    margin: 14px 8px 8px 8px;
+    font-size: 6rem;
+    font-family: nunito;
+    background: transparent;
+    color: black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    display: inline-block;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'machine';
+    padding: 0;
+    margin: 0;
+    margin-bottom: 18px;
+    border-bottom: 3px solid black;
+}
