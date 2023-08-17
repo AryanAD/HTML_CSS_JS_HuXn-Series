@@ -6,13 +6,12 @@
 
 - Currently, I am a beginner in web development. So, I have picked this project as a practice series in order to improve my skills in HTML, CSS, and JavaScript.
 
-- I will be working with Git and GitHub during this process and I will try to be as consistent as possible. 
+- I will be working with Git and GitHub during this process and I will try to be as consistent as possible.
 
 <hr>
 
-```YouTube Channel:``` 
+`YouTube Channel:`
 <img src="01.bg_video\assets\channel.png">
 
-```YouTube Playlist:``` <br>
+`YouTube Playlist:` <br>
 <img src="01.bg_video\assets\playlist.png">
-
