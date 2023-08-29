@@ -17,7 +17,7 @@ header {
     width: 350px;
 }
 
-.selectField {
+#selectField {
     font-family: monospace;
     font-size: 1.2rem;
     width: 100%;
@@ -32,7 +32,7 @@ header {
     align-items: center;
 }
 
-.selectField img {
+#selectField img {
     width: 12px;
     transition: transform 0.5s;
 }
