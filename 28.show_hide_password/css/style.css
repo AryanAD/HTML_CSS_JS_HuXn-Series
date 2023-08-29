@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'tr larabiefont';
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: chocolate;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: azure;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 10px 40px rgba(0, 0, 0, 0.7);
+}
+
+input {
+    border: none;
+    outline: none;
+    background: azure;
+    font-size: 24px;
+    letter-spacing: 2px;
+    width: 95%;
+    padding: 10px 20px;
+}
+
+.eye-container {
+    display: flex;
+    align-items: center;
+    scale: 1.2;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.fa-eye {
+    color: #666;
+}
+
+.fa-eye:hover {
+    color: #000;
+}
