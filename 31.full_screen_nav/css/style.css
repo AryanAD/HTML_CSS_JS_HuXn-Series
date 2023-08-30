@@ -110,7 +110,7 @@ article h2 {
     text-align: center;
 }
 
-p {
+.para {
     max-width: 700px;
     color: black;
     padding: 10px;
