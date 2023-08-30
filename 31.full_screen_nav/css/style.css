@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'tr larabiefont';
+    color: chocolate;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    background: green;
+    clip-path: circle(20px at calc(100vw -5vw) 31px);
+    transition: clip-path 0.5s;
+}
+
+.menu li {
+    position: relative;
+    z-index: 5;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 120px;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: calc(100vw - 5vw);
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.btn span {
+    width: 4px;
+    height: 4px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 1px;
+}
+
+.highlight {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: white;
+    transition: transform 0.3s;
+}
+
+.img-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    margin: 20PX;
+}
+
+.img-one {
+    background-image: url(https://www.aljazeera.com/wp-content/uploads/2022/12/SSS10784_1.jpg?resize=1170%2C780&quality=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-two {
+    background-image: url(https://i.pinimg.com/564x/56/7c/e7/567ce7a14eb24e0548d6b1198f4d4ccf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 0 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    padding: 20px 0;
+}
+
+article h2 {
+    font-family: nova;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    max-width: 700px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    line-height: 22px;
+}
