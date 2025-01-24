@@ -1,4 +1,4 @@
-> As this repo started getting popular recently, I decided to add this note here.
+> As this repo started getting popular recently, I decided to add this note here.<br>
 <b>NOTE: This repo does not and will not contain all the 100 projects because I stopped doing vanilla HTML, CSS and JS when I felt confident enough and switched to React and other technologies.</b>
 # HTML_CSS_JS_HuXn-Series
 
